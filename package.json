@@ -1,0 +1,28 @@
+{
+  "name": "node-red",
+  "version": "0.0.1",
+  "description": "A node-red sample using Express 4",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "startService.js",
+  "scripts": {
+    "start": "node startService.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3",
+    "node-red": "0.16.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CircleCheng/node-red.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "node-red"
+  ],
+  "license": "MIT"
+}
