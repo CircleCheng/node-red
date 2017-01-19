@@ -20,7 +20,7 @@ app.use('/', function(req, res, next) {
 var settings = {
     httpAdminRoot:"/red",
     httpNodeRoot: "/noderedapi",
-    userDir:"/home/nol/.nodered/",
+    userDir:"./.nodered/",
     functionGlobalContext: { },    // enables global context
     menu: { // Hide unwanted menu items by id. see editor/js/main.js:loadEditor for complete list
         "menu-item-import-library": false,
