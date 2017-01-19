@@ -15,7 +15,7 @@ app.use('/', function(req, res, next) {
    * Create HTTP server.
    */
 
-  var server = http.createServer(app).listen(port);
+  var server = http.createServer(app).listen(process.env.PORT || port);
 
 var settings = {
     httpAdminRoot:"/red",
